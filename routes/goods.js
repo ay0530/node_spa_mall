@@ -86,7 +86,7 @@ router.put("/goods/:goodsId/cart", async (req, res) => {
   res.status(200).json({ success: "true" });
 })
 
-// 장바구니 제거
+// 장바구니 제거 
 router.delete("/goods/:goodsId/cart", async (req, res) => {
   const { goodsId } = req.params; // params 값 조회
 

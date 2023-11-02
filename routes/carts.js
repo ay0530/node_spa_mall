@@ -25,7 +25,7 @@ router.get("/carts", async (req, res) => {
     }
   })
 
-  // json으로 
+  // json으로
   res.json({
     "carts": results,
   })

@@ -15,5 +15,5 @@ const cartSchema = new mongoose.Schema({
   }
 });
 
-// mongoose.model("모델명", 변수); : 모델 생성(모델명을 컬렉션명으로 지정)
+// mongoose.model("모델명", 변수); : 모델 생성(모델명을 컬렉션명으로 지정) 
 module.exports = mongoose.model("Cart", cartSchema);

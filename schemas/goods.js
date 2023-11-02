@@ -14,7 +14,7 @@ const goodsSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
-  // 상품 이미지
+  // 상품 이미지 
   thumbnailUrl: {
     type: String,
   },

@@ -16,4 +16,4 @@ app.use("/api", [goodsRouter, cartsRouter]); // localhost:3000/api
 // listen 메서드로 서버 실행
 app.listen(port, () => {
   console.log(port, '포트로 서버가 열렸어요!');
-});
+}); 
