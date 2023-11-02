@@ -1,8 +1,10 @@
 const express = require('express'); // express 라이브러리를 변수에 할당
 const app = express(); // express를 실행해서 app 객체 생성
 const port = 3000; // 서버 포트
-const goodsRouter = require('./routes/goods.js'); // goods.js 파일의 router 반환하기
 
+const goodsRouter = require('./routes/goods.js'); // goods.js 파일의 router 반환하기
+const connect = require('./schemas');
+connect();
 
 // req.body를 사용하기 위해선 body-parse middleware(express.json())을 사용해야함
 app.use(express.json());
