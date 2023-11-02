@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-// mongoose.Schema : 스키마 내용 정의
+// mongoose.Schema : 스키마 내용 정의 ~
 const goodsSchema = new mongoose.Schema({
   // 상품 ID
   goodsId: { // 컬럼명

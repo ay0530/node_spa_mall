@@ -40,7 +40,7 @@ const goods = [
 router.get("/goods", (req, res) => {
   res.status(200).json({ goods }); // 변수만 입력하면 key가 변수명으로 자동 적용됨
 })
-// 개별 상품 조회
+// 개별 상품 조회~
 router.get("/goods/:goodsId/cart", (req, res) => {
   // goosId에 params 값 할당
   const { goodsId } = req.params;

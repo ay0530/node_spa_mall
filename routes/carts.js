@@ -13,7 +13,7 @@ router.get("/carts", async (req, res) => {
     return cart.goodsId;
   });
 
-  // goodsIds 변수 안에 존재하고 Goods에 존재하는 모든 정보 조회
+  // goodsIds 변수 안에 존재하고 Goods에 존재하는 모든 정보 조회 ~
   const goods = await Goods.find({ goodsId: goodsIds });
 
   // 등록된 상품에서 장바구니에 저장한 상품들을 찾아 results에 할당
